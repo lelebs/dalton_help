@@ -1,0 +1,19 @@
+Para uso da API:
+No arquivo MainController, há o route principal do controller, que é "api/data/"
+Para acessar esse controller então é só enviar a requisição http para esse link e adicionar nele a ação que quer usar.
+Exemplo, para a ação de GetData, usada para pegar dados do banco, tem de disparar uma requisição Get para o link api/data/get e o controller irá retornar os dados do banco.
+Para a ação Inserir, deve enviar uma requisição para api/data/post/{idcor} sendo o idcor o parâmetro que irá enviar, exemplo: o comando api/data/post/1 chama a ação inserir com o idcor 1.
+
+Exemplo de uma request a essa API:
+{localhost e a porta}/api/data/get
+*O visual studio define a porta e endereço.
+
+Exemplo: http://localhost:5003/api/data/get
+
+Para testar a api, pode usar o programa postman, defina ação que quer usar e envie a request.
+
+A api em si, irá apenas receber o dado e postar no banco, ou então retornar os registros do banco ao usuário.
+
+*OBS: Para usar o programa, deve ter o banco instalado e configurado no computador.
+
+A api está configurada para rodar com postgres, a connection string fica no arquivo Command/ConnectionCommand.cs
