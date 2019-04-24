@@ -8,7 +8,6 @@ namespace DaltoAPI.Command
 {
     public class MainCommand: IMainCommand
     {
-
         public async Task<List<DataModel>> GetDadosDb()
         {
             List<DataModel> lista = new List<DataModel>();
@@ -25,7 +24,7 @@ namespace DaltoAPI.Command
 
             NpgsqlCommand cmd = new NpgsqlCommand(query, connection.GetConnection());
 
-            NpgsqlDataReader dataReader = cmd.ExecuteReader();
+            var dataReader = await cmd.ExecuteReaderAsync();
 
             while (dataReader.Read())
             {
@@ -53,7 +52,7 @@ namespace DaltoAPI.Command
 
             NpgsqlCommand cmd = new NpgsqlCommand(query, connection.GetConnection());
 
-            cmd.ExecuteNonQuery();
+            await cmd.ExecuteNonQueryAsync();
         }
     }
 }

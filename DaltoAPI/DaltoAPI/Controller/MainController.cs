@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace DaltoAPI.Controller
 {
     [Produces("application/json")]
-    [Route("api/data/")]
+    [Route("api/data")]
     public class MainController : ControllerBase
     {
         private readonly MainCommand mainCommand = new MainCommand();
