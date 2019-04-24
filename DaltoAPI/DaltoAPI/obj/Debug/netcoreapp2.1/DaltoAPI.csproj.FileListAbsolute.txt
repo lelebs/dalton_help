@@ -12,3 +12,17 @@ C:\Users\leandro\source\repos\DaltoAPI\DaltoAPI\obj\Debug\netcoreapp2.1\DaltoAPI
 C:\Users\leandro\source\repos\DaltoAPI\DaltoAPI\obj\Debug\netcoreapp2.1\DaltoAPI.RazorTargetAssemblyInfo.cache
 C:\Users\leandro\source\repos\DaltoAPI\DaltoAPI\obj\Debug\netcoreapp2.1\DaltoAPI.dll
 C:\Users\leandro\source\repos\DaltoAPI\DaltoAPI\obj\Debug\netcoreapp2.1\DaltoAPI.pdb
+D:\Git\dalton_help\DaltoAPI\DaltoAPI\bin\Debug\netcoreapp2.1\DaltoAPI.deps.json
+D:\Git\dalton_help\DaltoAPI\DaltoAPI\bin\Debug\netcoreapp2.1\DaltoAPI.runtimeconfig.json
+D:\Git\dalton_help\DaltoAPI\DaltoAPI\bin\Debug\netcoreapp2.1\DaltoAPI.runtimeconfig.dev.json
+D:\Git\dalton_help\DaltoAPI\DaltoAPI\bin\Debug\netcoreapp2.1\DaltoAPI.dll
+D:\Git\dalton_help\DaltoAPI\DaltoAPI\bin\Debug\netcoreapp2.1\DaltoAPI.pdb
+D:\Git\dalton_help\DaltoAPI\DaltoAPI\obj\Debug\netcoreapp2.1\DaltoAPI.csprojAssemblyReference.cache
+D:\Git\dalton_help\DaltoAPI\DaltoAPI\obj\Debug\netcoreapp2.1\DaltoAPI.csproj.CoreCompileInputs.cache
+D:\Git\dalton_help\DaltoAPI\DaltoAPI\obj\Debug\netcoreapp2.1\DaltoAPI.RazorAssemblyInfo.cache
+D:\Git\dalton_help\DaltoAPI\DaltoAPI\obj\Debug\netcoreapp2.1\DaltoAPI.RazorAssemblyInfo.cs
+D:\Git\dalton_help\DaltoAPI\DaltoAPI\obj\Debug\netcoreapp2.1\DaltoAPI.AssemblyInfoInputs.cache
+D:\Git\dalton_help\DaltoAPI\DaltoAPI\obj\Debug\netcoreapp2.1\DaltoAPI.AssemblyInfo.cs
+D:\Git\dalton_help\DaltoAPI\DaltoAPI\obj\Debug\netcoreapp2.1\DaltoAPI.RazorTargetAssemblyInfo.cache
+D:\Git\dalton_help\DaltoAPI\DaltoAPI\obj\Debug\netcoreapp2.1\DaltoAPI.dll
+D:\Git\dalton_help\DaltoAPI\DaltoAPI\obj\Debug\netcoreapp2.1\DaltoAPI.pdb

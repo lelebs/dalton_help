@@ -13,7 +13,7 @@ namespace DaltoAPI.Command
     {
         private readonly NpgsqlConnection conn;
 
-        private static string connectionString = "Server=127.0.0.1;Port=5432;Database=daltodb;User Id=dalto;Password=root;";
+        private static string connectionString = "Server=daltodb.crekutelavgm.us-east-2.rds.amazonaws.com;Port=5432;Database=daltodb;User Id=daltoadm;Password=Daltoadm;";
 
         public ConnectionCommand()
         {
