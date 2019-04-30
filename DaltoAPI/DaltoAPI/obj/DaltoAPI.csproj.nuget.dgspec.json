@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leandro\\source\\repos\\DaltoAPI\\DaltoAPI\\DaltoAPI.csproj": {}
+    "D:\\Git\\dalton_help\\DaltoAPI\\DaltoAPI\\DaltoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leandro\\source\\repos\\DaltoAPI\\DaltoAPI\\DaltoAPI.csproj": {
+    "D:\\Git\\dalton_help\\DaltoAPI\\DaltoAPI\\DaltoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leandro\\source\\repos\\DaltoAPI\\DaltoAPI\\DaltoAPI.csproj",
+        "projectUniqueName": "D:\\Git\\dalton_help\\DaltoAPI\\DaltoAPI\\DaltoAPI.csproj",
         "projectName": "DaltoAPI",
-        "projectPath": "C:\\Users\\leandro\\source\\repos\\DaltoAPI\\DaltoAPI\\DaltoAPI.csproj",
+        "projectPath": "D:\\Git\\dalton_help\\DaltoAPI\\DaltoAPI\\DaltoAPI.csproj",
         "packagesPath": "C:\\Users\\leandro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leandro\\source\\repos\\DaltoAPI\\DaltoAPI\\obj\\",
+        "outputPath": "D:\\Git\\dalton_help\\DaltoAPI\\DaltoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

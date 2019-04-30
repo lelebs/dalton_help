@@ -8,7 +8,7 @@ namespace DaltoAPI.Interface
 {
     public interface IMainCommand
     {
-        Task<List<DataModel>> GetDadosDb();
+        Task<List<ColorModel>> GetDadosDb();
 
         Task Insert(int idCor);
     }

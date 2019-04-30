@@ -8,17 +8,19 @@ namespace DaltoAPI.Command
 {
     public class MainCommand: IMainCommand
     {
-        public async Task<List<DataModel>> GetDadosDb()
+        public async Task<List<ColorModel>> GetDadosDb()
         {
-            List<DataModel> lista = new List<DataModel>();
+            List<ColorModel> lista = new List<ColorModel>();
 
             ConnectionCommand connection = new ConnectionCommand();
 
             var query = @"
-                SELECT cor.cor, COUNT(idcor) as quantidade, cor.id
-                from registro
-                INNER JOIN cor
-                ON registro.idcor = cor.id
+                SELECT cor.id,
+                       cor.cor, 
+                       COUNT(idcor) as quantidade,
+                       cor.hexa
+                FROM registro
+                INNER JOIN cor ON registro.idcor = cor.id
                 GROUP BY cor.cor, cor.id
                 ORDER BY cor, quantidade, cor.id";
 
@@ -28,11 +30,12 @@ namespace DaltoAPI.Command
 
             while (dataReader.Read())
             {
-                DataModel data = new DataModel
+                ColorModel data = new ColorModel
                 {
+                    IdCor = dataReader.GetInt16(2),
                     Cor = dataReader.GetString(0),
                     Quantidade = dataReader.GetInt32(1),
-                    IdCor = dataReader.GetInt16(2)
+                    Hexadecimal = dataReader.GetString(3)
                 };
 
                 lista.Add(data);
@@ -50,7 +53,7 @@ namespace DaltoAPI.Command
             INSERT INTO public.registro(idcor)
             VALUES(" + idCor + ")";
 
-            NpgsqlCommand cmd = new NpgsqlCommand(query, connection.GetConnection());
+            var cmd = new NpgsqlCommand(query, connection.GetConnection());
 
             await cmd.ExecuteNonQueryAsync();
         }
