@@ -32,9 +32,9 @@ namespace DaltoAPI.Command
             {
                 ColorModel data = new ColorModel
                 {
-                    IdCor = dataReader.GetInt16(2),
-                    Cor = dataReader.GetString(0),
-                    Quantidade = dataReader.GetInt32(1),
+                    IdCor = dataReader.GetInt16(0),
+                    Cor = dataReader.GetString(1),
+                    Quantidade = dataReader.GetInt32(2),
                     Hexadecimal = dataReader.GetString(3)
                 };
 
